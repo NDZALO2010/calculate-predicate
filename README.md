@@ -13,7 +13,7 @@ It calculates the final predicate score by applying the respective weights to th
 
 ## How to Use
 
-1. Open the `index.html` file in any modern web browser.
+1. Open the https://ndzalo2010.github.io/calculate-predicate/ link in any modern web browser.
 2. Enter the marks for the semester tests, class tests, and assignment.
 3. Click the "Calculate Predicate" button.
 4. The final predicate score will be displayed below the form.
