@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predicate Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Predicate Calculator</h1>
+        <form id="predicate-form">
+            <fieldset>
+                <legend>Semester Test Marks (2 tests, 60%)</legend>
+                <label for="semester1">Semester Test 1:</label>
+                <input type="number" id="semester1" name="semester1" min="0" max="100" required />
+                <label for="semester2">Semester Test 2:</label>
+                <input type="number" id="semester2" name="semester2" min="0" max="100" required />
+            </fieldset>
+            <fieldset>
+                <legend>Class Test Marks (5 tests, 30%)</legend>
+                <label for="class1">Class Test 1:</label>
+                <input type="number" id="class1" name="class1" min="0" max="100" required />
+                <label for="class2">Class Test 2:</label>
+                <input type="number" id="class2" name="class2" min="0" max="100" required />
+                <label for="class3">Class Test 3:</label>
+                <input type="number" id="class3" name="class3" min="0" max="100" required />
+                <label for="class4">Class Test 4:</label>
+                <input type="number" id="class4" name="class4" min="0" max="100" required />
+                <label for="class5">Class Test 5:</label>
+                <input type="number" id="class5" name="class5" min="0" max="100" required />
+            </fieldset>
+            <fieldset>
+                <legend>Assignment Mark (1 assignment, 10%)</legend>
+                <label for="assignment">Assignment:</label>
+                <input type="number" id="assignment" name="assignment" min="0" max="100" required />
+            </fieldset>
+            <button type="submit">Calculate Predicate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
